@@ -1,0 +1,37 @@
+1.清空数据库的products表，删除shopsport\media\products_img下所有文件
+2.修改productsOfCate.py下，改为自己的图片文件夹路径：
+#文件夹名
+root = r"C:\Users\yongt\Desktop\products"
+
+注意：图片文件夹结构为
+C:\Users\yongt\Desktop\products
+	BOXING
+		Punch Bag
+	FUNCTIONAL
+		Cardio
+		Crosstraining
+		FUNCTIONAL_Other
+		Resistance
+	OTHER
+		Other
+	OUTDOOR
+		Camping Mat
+		Picnic Blanket
+		Sleeping Bag
+	STRENGTH
+		Barbell
+		Dumbbell
+		Gym Station Attachments
+		Kettlebell
+		Racks and Stands
+		Weight Plates
+		Weightlifting Accessories
+	YOGA&THERAPY
+		Exercise Ball
+		Mat
+		YOGA&THERAPY_Other
+
+3.运行脚本文件
+	python.exe insertProducts.py
+	
+4.将图片文件夹中的图片复制到shopsport\media\products_img文件夹下
